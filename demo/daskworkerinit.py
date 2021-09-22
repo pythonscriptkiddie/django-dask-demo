@@ -1,6 +1,6 @@
 import sys
 import os
-DJANGO_SETTINGS_MODULE='demo.settings'
+
 #settings.configure()
 import django
 

@@ -1,10 +1,11 @@
 import logging
 import traceback
-
+#DJANGO_SETTINGS_MODULE='demo.settings'
 
 
 from dask.distributed import Client, Future
 from django.conf import settings
+settings.configure()
 
 from daskmanager.models import DaskTask
 
